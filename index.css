@@ -1,13 +1,118 @@
-.info-section {
-  height: 100vh;
+/* ------ Fonts ----- */
+.droid {
+  font-style: italic;
+  font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
+.mont-7 {
+  font-weight: 700;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.mont-4 {
+  font-weight: 400;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+
+/* ------ Hero ----- */
 .bg-hero {
-  height: 70vh;
+  height: 42rem;
   width: 100%;
   background: url('/assets/banner-crop.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: cover;
   background-position: top;
+  margin-bottom: 0px;
+}
+.hero-head {
+  font-size: 75px;
+  margin-top: -20px;
+}
+.hero-subhead {
+  margin-bottom: 25px;
+}
+.lead {
+  font-size: 40px;
+}
+
+
+/* ----- Work Info ----- */
+.work-section {
+  background-color: #ffffff;
+  padding: 75px 30px 150px 30px;
+}
+
+
+/* ----- Play Info ----- */
+.play-section {
+  background-color: dimgray;
+  /* background-color: #ffffff; */
+  padding: 75px 30px 150px 30px;
+}
+
+
+/* ----- Media Queries ----- */
+@media only screen and (max-width : 1200px) {
+  .info-card {
+    margin-bottom: 20px;
+    width: 30rem;
+  }
+}
+@media only screen and (max-width : 979px) {
+  .info-card {
+    margin-bottom: 20px;
+    width: 30rem;
+  }
+}
+@media only screen and (max-width : 767px) {
+  .bg-hero {
+    background-position: left;
+    height: 30rem;
+  }
+  .hero-head {
+    font-size: 40px;
+    margin-bottom: -1px;
+  }
+  .hero-subhead {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .droid {
+    font-size: 20px;
+  }
+  .info-card {
+    margin-bottom: 20px;
+    width: 30rem;
+  }
+}
+@media only screen and (max-width : 480px) {
+  .bg-hero {
+    background-position: left;
+    height: 30rem;
+  }
+  .info-card {
+    margin-bottom: 20px;
+    width: 20rem;
+  }
+}
+@media only screen and (max-width : 320px) {
+  .bg-hero {
+    background-position: left;
+    height: 20rem;
+  }
+  .hero-head {
+    font-size: 30px;
+    margin-bottom: -3px;
+  }
+  .hero-subhead {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .droid {
+    font-size: 15px;
+  }
+  .info-card {
+    margin-bottom: 20px;
+    width: 15rem;
+  }
 }

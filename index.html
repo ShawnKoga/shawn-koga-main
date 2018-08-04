@@ -6,16 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="/assets/logo-squared-inv.png">
-  <link rel="stylesheet" href="./index.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+  <!-- Styles & Overrides -->
+  <link rel="stylesheet" href="./index.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
   <title>Shawn Koga</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(89, 89, 89, 0.8)">
     <a class="navbar-brand" href="#">S.KOGA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +33,13 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#">Play</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Dev Projects</a>
         </li>
         <li class="nav-item dropdown">
           <a aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -55,23 +59,128 @@
     </div>
   </nav>
 
-  <section class="jumbotron bg-hero">
-    <h1 class="display-4">HERO SECTION</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="https://www.shawnkoga.com/" role="button" target="blank">Learn more</a>
+  <section class="jumbotron bg-hero d-flex flex-column align-items-center justify-content-center">
+    <p class="lead droid">
+      Welcome To The Studio
+    </p>
+    <h1 class="display-4 hero-head mont-7">SHAWN KOGA</h1>
+    <h4 class="hero-subhead mont-4">
+      DESIGN | DEVELOP | CREATE
+    </h4>
+    <a class="btn btn-primary btn-sm" href="https://www.shawnkoga.com/" role="button" target="blank">
+      FIND OUT MORE
+    </a>
   </section>
 
-  <section class="info-section">
-    <div>INFORMATION SECTION</div>
+  <section class="work-section">
+    <div class="container-fluid">
+      <h1 class="display-4 droid d-flex justify-content-center" style="margin-bottom: 50px">
+        Work
+      </h1>
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <h4 class="mont-7">
+            DESIGN
+          </h4>
+          <div class="card info-card">
+            <img class="card-img-top" src="/assets/vans.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                With 3.5 years of working experience as a Designer at Namify, a national leader in brand management, I am very comfortable
+                with Adobe Creative Suite
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <h4 class="mont-7">
+            DEVELOP
+          </h4>
+          <div class="card info-card">
+            <img class="card-img-top" src="/assets/develop.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                From 2017 DevMountain graduate to Web Developer with MediCCM, I have a great foundation in React, Ruby on Rails, HTML, CSS,
+                and Javascript
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <h4 class="mont-7">
+            CREATE
+          </h4>
+          <div class="card info-card">
+            <img class="card-img-top" src="/assets/camera.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                As a 2013 Utah State University Graduate, Bachelor of Fine Arts (Photography and Printmaking Emphases), I have an eye for
+                detail and a knack for design
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </h>
+  </section>
+
+  <section class="play-section">
+    <div class="container-fluid">
+      <h1 class="display-4 droid d-flex justify-content-center" style="margin-bottom: 50px">
+        Play
+      </h1>
+      <div class="row">
+        <div class="col d-flex flex-column align-items-center">
+          <h4 class="mont-7">
+            DESIGN
+          </h4>
+          <div class="card info-card">
+            <img class="card-img-top" src="/assets/vans.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                With 3.5 years of working experience as a Designer at Namify, a national leader in brand management, I am very comfortable
+                with Adobe Creative Suite
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <h4 class="mont-7">
+            DEVELOP
+          </h4>
+          <div class="card info-card">
+            <img class="card-img-top" src="/assets/develop.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                From 2017 DevMountain graduate to Web Developer with MediCCM, I have a great foundation in React, Ruby on Rails, HTML, CSS,
+                and Javascript
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex flex-column align-items-center">
+          <h4 class="mont-7">
+            CREATE
+          </h4>
+          <div class="card info-card">
+            <img class="card-img-top" src="/assets/camera.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">
+                As a 2013 Utah State University Graduate, Bachelor of Fine Arts (Photography and Printmaking Emphases), I have an eye for
+                detail and a knack for design
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </h>
   </section>
 
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2018</span>
+          <span class="copyright">&copy; Shawn Koga</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
@@ -95,10 +204,10 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <a href="#">Home</a>
             </li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+              <a href="#">About</a>
             </li>
           </ul>
         </div>
