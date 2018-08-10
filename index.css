@@ -37,7 +37,7 @@
 .bg-hero {
   height: 42rem;
   width: 100%;
-  background: url('/assets/banner.jpg');
+  background: url('./assets/banner.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
